@@ -1,0 +1,213 @@
+/*Google font link*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/*Bootstrap icon link*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/*Common css*/
+body{
+    font-family: var(--google-font);
+}
+
+/*Customized variables*/
+:root{
+    --primary-color: #F85559;
+    --text-white: #fff;
+    --green-color: #82CD47;
+    --main-title: #121212;
+    --google-font: 'Lato', sans-serif;
+    --text-thin: 300;
+    --text-base: 400;
+    --text-bold: 700;
+}
+
+/*Universal css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header css*/
+.header{
+    width: 90%;
+    margin: 30px auto;
+}
+
+/*Navbar css*/
+.navbar{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand span{
+    color: var(--text-white);
+    font-size: 25px;
+    font-weight: var(--text-bold);
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link{
+    color: var(--text-white);
+    font-size: 18px;
+    font-weight: var(--text-base);
+}
+
+.nav-link:hover,.nav-link:focus{
+    color: var(--text-white);
+}
+
+.search-bar{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+.search-bar:focus{
+    border: none;
+    outline: none;
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    background-color: var(--green-color);
+    color: var(--text-white);
+    border: none;
+    border-radius: 50%;
+}
+
+/*Banner css*/
+.carousel-inner{
+    border-radius: 10px;
+}
+
+.slider-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(./images/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(./images/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(./images/banner4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-content{
+    text-align: center;
+    color: var(--text-white);
+}
+
+.banner-title{
+    max-width: 661px;
+    margin: 0 auto 15px;
+    font-size: 72px;
+    font-weight: var(--text-bold);
+}
+
+.banner-text{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: var(--text-base);
+}
+
+.banner-btn{
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: var(--text-bold);
+}
+
+/*Banner-card css*/
+.banner-card{
+    width: 60%;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--text-white);
+    border-radius: 10px;
+    position: relative;
+    top: -60px;
+    left: 250px;
+}
+
+/*Main css*/
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about{
+    padding: 40px 0;
+}
+
+.about-title{
+    color: var(--main-title);
+    font-size: 48px;
+    font-weight: var(--text-bold);
+    margin-bottom: 15px;
+}
+
+.about-title span{
+    color: var(--primary-color);
+}
+
+.about-text{
+    font-size: 16px;
+    font-weight: var(--text-base);
+    line-height: 30px;
+    color: var(--main-title);
+}
+
+.image-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+/*Responsive css*/
+@media screen and (max-width:425px){
+ .banner-card{
+    display:none;
+ }   
+}
