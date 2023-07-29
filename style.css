@@ -175,6 +175,7 @@ body{
     margin: 0 auto;
 }
 
+/*About Css*/
 .about{
     padding: 40px 0;
 }
@@ -197,17 +198,40 @@ body{
     color: var(--main-title);
 }
 
-.image-box{
-    width: 80%;
-    margin: 0 auto;
+.about-content{
+    margin-left: -50px;
+    text-align: justify;
 }
 
+.about-img{
+    margin-left: 130px;
+}
 
+/*Shop css*/
+.shop{
+    padding: 100px 0;
+}
 
+.offer-title{
+    margin-bottom: 20px;
+    color: var(--main-title);
+    font-size: 48px;
+    font-weight: var(--text-bold);
+}
 
+.offer-text{
+    color: #121212;
+    font-size: 16px;
+    font-weight: var(--text-base);
+    line-height: 30px;
+}
 /*Responsive css*/
 @media screen and (max-width:425px){
  .banner-card{
     display:none;
- }   
+ }
+ 
+ .about-img{
+    margin-left: 0;
+ }
 }
