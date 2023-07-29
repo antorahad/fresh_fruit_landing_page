@@ -199,7 +199,6 @@ body{
 }
 
 .about-content{
-    margin-left: -50px;
     text-align: justify;
 }
 
@@ -224,6 +223,37 @@ body{
     font-size: 16px;
     font-weight: var(--text-base);
     line-height: 30px;
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number{
+    color: var(--main-title);
+    font-size: 60px;
+    font-weight: var(--text-bold);
+}
+
+.title{
+    color: var(--main-title);
+    font-size: 16px;
+    font-weight: var(--text-bold);
+}
+
+.dots{
+    color: var(--main-title);
+    font-size: 20px;
+    font-weight: var(--text-bold);
 }
 /*Responsive css*/
 @media screen and (max-width:425px){
