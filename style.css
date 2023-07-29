@@ -172,12 +172,12 @@ body{
 /*Main css*/
 .main{
     width: 90%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 /*About Css*/
 .about{
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .about-title{
@@ -208,9 +208,10 @@ body{
 
 /*Shop css*/
 .shop{
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
+/*Offer css*/
 .offer-title{
     margin-bottom: 20px;
     color: var(--main-title);
@@ -345,6 +346,52 @@ body{
 
 .modal-btns{
     margin: 15px auto;
+}
+
+/*Team css*/
+.team{
+    padding: 60px 0;
+    height: 550px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('./images/banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member{
+    margin: 0 40px;
+}
+
+.member-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    margin: 15px auto;
+}
+
+.member-name{
+    color: var(--text-white);
+    font-size: 24px;
+    font-weight: var(--text-bold);
+}
+
+.member-post{
+    color: var(--text-white);
+    font-size: 16px;
+    font-weight: var(--text-base);
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: var(--primary-color);
 }
 /*Responsive css*/
 @media screen and (max-width:425px){
